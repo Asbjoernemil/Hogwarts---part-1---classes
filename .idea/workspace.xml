@@ -5,7 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8192e85-820d-4958-a805-9f33047d0d74" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/application/InitApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/data/EmpType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/data/HouseNames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/data/TeachingMaterial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/data/TextBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/data/Wand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/hogwarts/application/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/hogwarts/data/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/HogwartsPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/hogwarts/data/HogwartsPerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/HogwartsStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/hogwarts/data/HogwartsStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/HogwartsTeacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/hogwarts/data/HogwartsTeacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/hogwarts/data/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/Ingredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/hogwarts/data/Ingredient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/generic/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/generic/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/hogwarts/data/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/generic/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/TeachingMaterial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/TextBook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/Tool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/hogwarts/data/Tool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/Wand.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +43,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2bx0J4kYZXsEifRklkPwQ0hVeWV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -33,24 +54,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Application.executor": "Run",
-    "Application.HogwartsStudent.executor": "Run",
-    "Application.Student.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Application.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HogwartsStudent.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Student.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,6 +88,8 @@
       <option name="presentableId" value="Default" />
       <updated>1707141353471</updated>
       <workItem from="1707141354565" duration="14197000" />
+      <workItem from="1707310180962" duration="2547000" />
+      <workItem from="1707317585951" duration="7152000" />
     </task>
     <servers />
   </component>

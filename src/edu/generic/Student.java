@@ -1,23 +1,21 @@
-package edu.hogwarts;
+package edu.generic;
 
+import java.time.LocalDate;
 
 public class Student extends Person {
     private int enrollmentYear;
     private int graduationYear;
     private boolean graduated;
 
-    public Student(String firstName, String middleName, String lastName, int enrollmentYear, int graduationYear, boolean graduated) {
-        super(firstName, middleName, lastName);
+    public Student(int enrollmentYear, int graduationYear, boolean graduated, String fullName, LocalDate birthDate) {
+        super(fullName, birthDate);
         this.enrollmentYear = enrollmentYear;
         this.graduationYear = graduationYear;
         this.graduated = graduated;
     }
 
-    public Student(String fullName, int enrollmentYear, int graduationYear, boolean graduated) {
-        super(fullName);
-        this.enrollmentYear = enrollmentYear;
-        this.graduationYear = graduationYear;
-        this.graduated = graduated;
+    public Student() {
+        super();
     }
 
     public int getEnrollmentYear() {
@@ -46,10 +44,11 @@ public class Student extends Person {
 
     @Override
     public String toString() {
-        String name = getFirstName() + " " + getLastName();
-
-        return "Object \"Student\":\n{\n" + "Name: " + name + "\nEnrollmentYear: " + enrollmentYear + "\nGraduationYear: "
-                + graduationYear + "\nGraduated: " + graduated + "\n}";
+        return "Student{\n" +
+                "fullName" + getFullName() + "\n" +
+                "enrollmentYear: " + enrollmentYear + "\n" +
+                "graduationYear: " + graduationYear + "\n" +
+                "graduated: " + graduated + "\n" +
+                "}";
     }
-
 }
