@@ -5,28 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8192e85-820d-4958-a805-9f33047d0d74" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/application/InitApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/data/EmpType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/data/HouseNames.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/data/TeachingMaterial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/data/TextBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/data/Wand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/hogwarts/application/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/hogwarts/data/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/HogwartsPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/hogwarts/data/HogwartsPerson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/HogwartsStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/hogwarts/data/HogwartsStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/HogwartsTeacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/hogwarts/data/HogwartsTeacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/hogwarts/data/House.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/Ingredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/hogwarts/data/Ingredient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/generic/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/generic/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/hogwarts/data/Subject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/generic/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/TeachingMaterial.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/TextBook.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/Tool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/hogwarts/data/Tool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/Wand.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +69,7 @@
       <workItem from="1707141354565" duration="14197000" />
       <workItem from="1707310180962" duration="2547000" />
       <workItem from="1707317585951" duration="7152000" />
+      <workItem from="1707465486837" duration="4634000" />
     </task>
     <servers />
   </component>
