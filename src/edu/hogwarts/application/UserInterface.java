@@ -9,9 +9,8 @@ public class UserInterface {
     private final Scanner scanner;
     private final StudentController studentController;
     private final TeacherController teacherController;
-    private final List<HogwartsPerson> hogwartsPeople; // Add a list to store Hogwarts people
+    private final List<HogwartsPerson> hogwartsPeople;
 
-    // Update the constructor to accept the necessary controllers and the list of Hogwarts people
     public UserInterface(StudentController studentController, TeacherController teacherController, List<HogwartsPerson> hogwartsPeople) {
         this.scanner = new Scanner(System.in);
         this.studentController = studentController;
