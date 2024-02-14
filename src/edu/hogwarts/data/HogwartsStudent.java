@@ -17,15 +17,16 @@ public class HogwartsStudent extends Student implements HogwartsPerson {
         this.teams = teams;
     }
 
+    public House getHouse() {
+        return house;
+    }
+
     public HogwartsStudent() {
         super();
         this.teams = new String[0];
         this.house = new House();
     }
 
-    public House getHouse() {
-        return house;
-    }
 
     public void setHouse(House house) {
         this.house = house;
@@ -47,11 +48,19 @@ public class HogwartsStudent extends Student implements HogwartsPerson {
         this.teams = teams;
     }
 
+
     public EmpType getRole() {
         return role;
     }
 
     @Override
+    public String getHouseName() {
+        return house.getName().toString();
+    }
+
+    public String getName() {
+        return getFullName();
+    }
     public String toString() {
         StringBuilder teamString = new StringBuilder();
         if (teams.length > 0) {

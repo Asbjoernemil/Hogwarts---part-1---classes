@@ -1,24 +1,34 @@
 package edu.hogwarts.application;
 
-import edu.generic.Student;
-import edu.generic.Teacher;
-import edu.hogwarts.data.HogwartsTeacher;
-import edu.hogwarts.data.House;
+import edu.hogwarts.data.HogwartsPerson;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.time.LocalDate;
 
 public class Application {
+    private final StudentController studentController;
+    private final TeacherController teacherController;
+    private final UserInterface userInterface;
 
-    public static void main(String[] args) {
-        Application app = new Application();
-        app.start();
+    public Application() {
+        this.studentController = new StudentController();
+        this.teacherController = new TeacherController();
+
+        InitApp initApp = new InitApp(studentController, teacherController);
+        initApp.init();
+
+
+        List<HogwartsPerson> hogwartsPeople = new ArrayList<>();
+
+        this.userInterface = new UserInterface(studentController, teacherController, hogwartsPeople);
     }
 
     public void start() {
-        var InitApp = new InitApp();
-        InitApp.initApp();
+        userInterface.start();
     }
 
+    public static void main(String[] args) {
+        Application application = new Application();
+        application.start();
     }
+}

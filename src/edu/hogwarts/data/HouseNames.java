@@ -5,5 +5,6 @@ public enum HouseNames {
     HUFFLEPUFF,
     RAVENCLAW,
     SLYTHERIN,
-    UNKNOWN
+    UNKNOWN;
+
 }

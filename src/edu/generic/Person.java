@@ -1,15 +1,15 @@
 package edu.generic;
 
+import java.util.UUID;
 import java.time.LocalDate;
 import java.time.Period;
-import java.util.UUID;
 
 public class Person {
     private String firstName;
     private String lastName;
     private String middleName;
     private LocalDate birthDate;
-    private final UUID id;
+    private UUID id;
 
     public Person() {
         this.id = UUID.randomUUID();
@@ -73,6 +73,10 @@ public class Person {
         return id;
     }
 
+    public void setId(UUID id) {
+        this.id = id;
+    }
+
     public LocalDate getBirthDate() {
         return birthDate;
     }
@@ -102,6 +106,4 @@ public class Person {
                 "lastName: " + lastName + "\n" +
                 "}";
     }
-
-
 }

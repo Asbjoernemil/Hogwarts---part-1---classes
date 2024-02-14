@@ -1,4 +1,5 @@
 package edu.hogwarts.application;
+
 import edu.generic.Student;
 import edu.generic.Teacher;
 import edu.hogwarts.data.HogwartsTeacher;
@@ -10,11 +11,22 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class InitApp {
-    public void initApp() {
-        List<Student> students = new ArrayList<>();
-        List<Teacher> teachers = new ArrayList<>();
+    private final StudentController studentController;
+    private final TeacherController teacherController;
 
-        //*******************STUDENTS***********************//
+    public InitApp(StudentController studentController, TeacherController teacherController) {
+        this.studentController = studentController;
+        this.teacherController = teacherController;
+    }
+
+    public void init() {
+        initStudents();
+        initTeachers();
+    }
+
+    private void initStudents() {
+        List<Student> students = new ArrayList<>();
+
         // Gryffindor
         var harry = new HogwartsStudent(House.getGryffindor(), false, new String[]{"Quidditch"}, 1991, 1998, false, "Harry James Potter", LocalDate.of(1980, 7, 31));
         var ron = new HogwartsStudent(House.getGryffindor(), false, new String[]{"Chess"}, 1991, 1998, false, "Ron Weasley", LocalDate.of(1980, 3, 1));
@@ -45,19 +57,23 @@ public class InitApp {
         students.add(cedric);
         students.add(tonks);
 
-        // Student information
+        System.out.println("Studerende:");
         for (Student student : students) {
+            studentController.createStudent(student);
             System.out.println(student);
         }
+    }
 
-        //*******************TEACHERS***********************//
+    private void initTeachers() {
+        List<Teacher> teachers = new ArrayList<>();
+
         var snape = new HogwartsTeacher(House.getSlytherin(), true, LocalDate.of(1970, 1, 1), LocalDate.of(1998, 5, 2), "Severus Snape", LocalDate.of(1960, 1, 9));
         teachers.add(snape);
 
-//Teacher information
+        System.out.println("Lærere:");
         for (Teacher teacher : teachers) {
+            teacherController.createTeacher(teacher);
             System.out.println(teacher);
         }
-
     }
 }

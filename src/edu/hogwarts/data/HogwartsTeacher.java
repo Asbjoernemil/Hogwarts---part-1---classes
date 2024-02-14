@@ -36,6 +36,13 @@ public class HogwartsTeacher extends Teacher implements HogwartsPerson {
     }
 
     @Override
+    public String getHouseName() {
+        return house.getName().toString();
+    }
+
+    public String getName() {
+        return getFullName();
+    }
     public String toString() {
         return "HogwartsTeacher{\n" +
                 " id: " + getId() + "\n" +

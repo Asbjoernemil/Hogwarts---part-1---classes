@@ -12,6 +12,7 @@ public class House {
     private static final House slytherin = new House(HouseNames.SLYTHERIN, "Salazar Slytherin", "green", "silver");
     private static final House unknown = new House();
 
+
     public House(HouseNames name, String founder, String... colors) {
         this.name = name;
         this.founder = founder;
